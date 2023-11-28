@@ -1,0 +1,1 @@
+python test.py --plms --gpu_id 0 --ddim_steps 100 --outdir results/dresscode --config configs/viton512.yaml --dataroot DressCode --ckpt models/viton512.ckpt --n_samples 8 --seed 23 --scale 1 --H 512 --W 512 --unpaired
